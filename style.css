@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+}
+body {
+  color: white;
+}
+
+/* sfondo pagina */
+#sfondo{
+  background: url(background.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 1px;
+  margin: 0;
+}
+
+/* background nero trasparente */
+#contenitore{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px 10px 10px 10px;
+
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+/* header */
+header{
+  text-align: center;
+}
+header img{
+  width: 200px;
+}
+header > h1{
+  color: #42FF33;
+  font-size: 22px;
+}
+
+/* nav */
+
+nav{
+  background-color: #42FF33;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+/* main */
+
+div > h2{
+  display: inline-block;
+  font-size: 20px;
+}
+
+main section{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#Gino22 div:last-child{
+  background-color: yellow;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#Mike24 div:last-child{
+  background-color: green;
+  width: 350px;
+  padding: 10px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#Fede154 div:last-child{
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  border-radius: 4px 4px 4px 4px;
+}
